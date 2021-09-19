@@ -46,7 +46,7 @@ nav {
 
 @media (max-width: 600px) {
     .header__left img {
-        width: 50px;
+        width: 60px;
     }
     .header__left img {
         margin-left: 15px;
