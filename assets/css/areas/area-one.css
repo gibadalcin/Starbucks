@@ -61,4 +61,7 @@
     .area__one--content {
         padding: 100px 15px;
     }
+    .area__one--img1 {
+        height: 280px;
+    }
 }
