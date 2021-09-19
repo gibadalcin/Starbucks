@@ -1,0 +1,34 @@
+.area__three {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-top: 20px;
+}
+.area__three--content {
+    padding: 200px 80px;
+    background-image: url(../../images/bg2.jpg);
+    background-position: left;
+    background-size: cover;
+}
+.area__three--text {
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+.area__three--img1 {
+    background-image: url(../../images/f5.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+@media (max-width: 768px) {
+    .area__three {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        margin-top: 0px;
+    }
+}
+
+@media (max-width: 500px) {
+    .area__three--content {
+        padding: 100px 15px;
+    }
+}

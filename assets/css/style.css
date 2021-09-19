@@ -1,0 +1,118 @@
+
+body {
+    font-family: 'Open Sans';
+}
+
+.line__top {
+    display: flex;
+    width: 100%;
+    height: 1px;
+    box-shadow: 1px 1px 0 #ccc ;
+    margin-bottom: 0.8px;
+}
+
+main {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+.container.header__area {
+    width: 100%;
+    margin: 0 auto;
+}
+.container {
+   width: 70%;
+}
+
+h1 {
+    display: block;
+    font-family: 'Oswald';
+    font-weight: bold;
+    font-size: 90px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h2 {
+    font-family: 'Oswald';
+    font-weight: bold;
+    font-size: 35px;
+    margin-bottom: 20px;
+    line-height: 45px;
+}
+
+.container span {
+    display: block;
+    margin: 0 auto;
+}
+
+.button {
+    display: inline-block;
+    text-decoration: none;
+    border: 1px solid #454545;
+    padding: 8px 30px;
+    border-radius: 3px;
+    color: #454545;
+    margin-top: 30px;
+}
+
+.button:hover {
+    color: white;
+    background-color: #454545;
+}
+
+.bar {
+    background-color: #006341;
+    width: 168px;
+    height: 22px;
+    margin-bottom: 15px;
+}
+
+@media (max-width: 1140px) {
+    .release {
+        padding: 30px 150px;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 100%;
+     }
+    h1 {
+        font-size: 60px;
+    }
+    .release {
+        padding: 30px 100px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

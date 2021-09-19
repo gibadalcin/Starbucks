@@ -1,0 +1,46 @@
+.header__left img {
+    width: 70px;
+    height: auto;
+    margin-left: 20px;
+    margin-right: 30px;
+}
+.header__left {
+    display: flex;
+    align-items: center;
+}
+nav {
+    display: flex;
+}
+.nav__menu,
+.nav__rewards,
+.nav__gift--cards {
+    margin-right: 20px;
+    font-weight: bold;
+    font-size: 14px;
+    text-transform: uppercase; 
+    letter-spacing: 2px;
+}
+.nav__menu a,
+.nav__rewards a,
+.nav__gift--cards a {
+    text-decoration: none;
+    color: black;
+}
+.nav__menu a:hover,
+.nav__rewards a:hover,
+.nav__gift--cards a:hover {
+    color: #006341;
+}
+
+@media (min-width: 1280px) {
+    .header__left img {
+        margin-left: 0px;
+
+    }
+}
+
+@media (max-width: 768px) {
+    nav {
+        display: none;
+    }
+}

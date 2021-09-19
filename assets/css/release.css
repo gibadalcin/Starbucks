@@ -1,0 +1,26 @@
+.release {
+    display: block;
+    padding: 30px 250px;
+    text-align: center;
+    line-height: 30px;
+    background: #d8e8e3;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 1140px) {
+    .release {
+        padding: 30px 150px;
+    }
+}
+
+@media (max-width: 768px) {
+    .release {
+        margin-bottom: 0px;
+        padding: 30px 50px;
+    }
+}
+@media (max-width: 500px) {
+    .release {
+        padding: 30px 15px;
+    }
+}
