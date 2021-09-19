@@ -7,20 +7,13 @@ body {
     display: flex;
     width: 100%;
     height: 1px;
-    box-shadow: 1px 1px 0 #ccc ;
+    box-shadow: 1px 1px 0 var(--line-top_bs);
     margin-bottom: 0.8px;
 }
 
 main {
     max-width: 1280px;
     margin: 0 auto;
-}
-.container.header__area {
-    width: 100%;
-    margin: 0 auto;
-}
-.container {
-   width: 70%;
 }
 
 h1 {
@@ -40,28 +33,21 @@ h2 {
     line-height: 45px;
 }
 
+.container.header__area {
+    width: 100%;
+    margin: 0 auto;
+}
+.container {
+   width: 70%;
+}
+
 .container span {
     display: block;
     margin: 0 auto;
 }
 
-.button {
-    display: inline-block;
-    text-decoration: none;
-    border: 1px solid #454545;
-    padding: 8px 30px;
-    border-radius: 3px;
-    color: #454545;
-    margin-top: 30px;
-}
-
-.button:hover {
-    color: white;
-    background-color: #454545;
-}
-
 .bar {
-    background-color: #006341;
+    background-color: var(--bar_bg); 
     width: 168px;
     height: 22px;
     margin-bottom: 15px;

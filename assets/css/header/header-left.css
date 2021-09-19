@@ -24,12 +24,12 @@ nav {
 .nav__rewards a,
 .nav__gift--cards a {
     text-decoration: none;
-    color: black;
+    color: var(--nav_color);
 }
 .nav__menu a:hover,
 .nav__rewards a:hover,
 .nav__gift--cards a:hover {
-    color: #006341;
+    color: var(--nav_color-hover); 
 }
 
 @media (min-width: 1280px) {

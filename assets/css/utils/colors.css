@@ -1,0 +1,45 @@
+:root {
+    /*theme-color*/
+    --theme_bg:#006341;
+
+    /*button*/
+    --button_bd: #454545;
+    --button_color: #454545;
+
+    --button_hover-bg: #454545;
+    --button_hover-color: #fff;
+
+    /*line-top*/
+    --line-top_bs: #ccc ;
+
+    /*bar*/
+    --bar_bg:#006341;
+
+    /* header-right*/
+    --header_bd-search: #999999;
+
+    /*header-left*/
+    --nav_color: #000;
+    --nav_color-hover: #006341;
+
+    /*release*/
+    --release_bg: #d8e8e3;
+
+    /*banner*/
+    --banner_color-span: #23f5a8;
+    --banner_color-span-mobile: #002719;
+
+    /*area-four*/
+    --area-four_bg-content: #e9eaef;
+
+    /*footer*/
+    --footer_bd-top:#CCC;
+    --footer_color-links: #000;
+    --footer_bd-left-links:#000;
+    --footer_color-p:#999999;
+
+    --footer_hover-links:#006341;
+
+
+
+}

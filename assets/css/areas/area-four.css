@@ -5,7 +5,7 @@
  
  .area__four--content {
      padding: 150px 80px;
-     background-color: #e9eaef;
+     background-color:var(--area-four_bg-content);
  }
  
  .area__four--text {

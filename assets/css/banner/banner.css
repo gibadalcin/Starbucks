@@ -9,7 +9,7 @@
 .banner span {
     font-family: 'Open Sans';
     text-align: center;
-    color: #23f5a8;
+    color: var(--banner_color-span); 
     width: 100%;
 }
 
@@ -18,7 +18,7 @@
       font-weight: 600;
       width: 45%;
       line-height: 1.5;
-      color: #002719;
+      color: var(--banner_color-span-mobile); 
     }
 }
 

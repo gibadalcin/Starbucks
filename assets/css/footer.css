@@ -1,5 +1,5 @@
 footer {
-    border-top: 1px solid #CCC;
+    border-top: 1px solid var(--footer_bd-top); 
 }
 
 .footer__content {
@@ -27,14 +27,14 @@ footer {
     text-decoration: none;
     padding: 0 20px;
     text-align: center;
-    color: black;
+    color:  var(--footer_color-links);
     font-weight: 400;
     font-size: 14px;
-    border-left: 1px solid black;
+    border-left: 1px solid var(--footer_bd-left-links);
     margin-bottom: 30px;
 }
 .links a:hover {
-   color: #006341;;
+   color: var(--footer_hover-links);
 }
 .links a:nth-child(1) {
     padding-left: 0;
@@ -47,7 +47,7 @@ footer p {
     padding-bottom: 10px;
     font-size: 14px;
     font-weight: 400;
-    color: #999999;
+    color: var(--footer_color-p);
 }
 footer p span{
     font-size: 16px;

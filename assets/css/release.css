@@ -3,7 +3,7 @@
     padding: 30px 250px;
     text-align: center;
     line-height: 30px;
-    background: #d8e8e3;
+    background: var(--release_bg);
 }
 
 @media (max-width: 1140px) {
