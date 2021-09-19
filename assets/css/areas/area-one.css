@@ -19,7 +19,7 @@
     background-image: url(../../images/f2.jpg);
     background-position: center;
     background-size: cover;
-    height: 300px;
+    height: 400px;
 }
 .area__one--img2 {
     grid-column: 2 / 2;
