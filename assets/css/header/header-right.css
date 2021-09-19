@@ -55,4 +55,20 @@
     .header--search form {
         padding: 0;
     }
+    .header--menu {
+        margin-right: 30px;
+    } 
+}
+
+@media (max-width: 600px) {
+    .header--search form {
+        display: none;
+    }
+    .header--menu img {
+        width: 20px;
+        height: 20px;
+    }
+    .header--menu {
+        margin-right: 20px;
+    }
 }

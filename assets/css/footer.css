@@ -10,10 +10,10 @@ footer {
 .socials {
     display: flex;
     justify-content: space-between;
-    width: 18%;
+    width: 15%;
     padding: 20px 0px;
     margin-left: 20px;
-    margin-top: 30px;
+    margin-top: 20px;
 }
 .socials a {
     padding-right: 20px;
@@ -28,9 +28,10 @@ footer {
     padding: 0 20px;
     text-align: center;
     color: black;
-    font-weight: bold;
+    font-weight: 400;
+    font-size: 14px;
     border-left: 1px solid black;
-    margin-bottom: 35px;
+    margin-bottom: 30px;
 }
 .links a:hover {
    color: #006341;;
@@ -42,10 +43,10 @@ footer {
 
 footer p {
     margin-left: 20px;
-    margin-bottom: 50px;
-    padding-bottom: 20px;
-    font-size: 16px;
-    font-weight: 500;
+    margin-bottom: 40px;
+    padding-bottom: 10px;
+    font-size: 14px;
+    font-weight: 400;
     color: #999999;
 }
 footer p span{
@@ -64,16 +65,19 @@ footer p span{
 }
 
 @media (max-width: 768px) {
+    .socials {
+        margin-bottom: 10px;
+    }
     .links {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
         padding: 0 20px 20px 20px;
-        margin: 0;
+        line-height: 1.5;
     }
     .links a{
         padding: 0;
-        margin-bottom: 20px;
+        margin-bottom: 10px;
         border: none;
     }
     footer p {
