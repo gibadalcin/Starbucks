@@ -1,7 +1,6 @@
 .area__two {
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    margin-top: 20px;
 }
 .area__two--content {
     padding: 80px;
@@ -28,7 +27,6 @@
 @media (max-width: 768px) {
     .area__two {
         grid-template-columns: 1fr;
-        margin-top: 0px;
     }
     .area__two--content {
         grid-column-start: 1;

@@ -1,7 +1,6 @@
 .area__three {
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    margin-top: 20px;
 }
 .area__three--content {
     padding: 200px 80px;
@@ -23,7 +22,6 @@
     .area__three {
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr;
-        margin-top: 0px;
     }
 }
 

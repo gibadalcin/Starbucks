@@ -4,16 +4,10 @@
     background-size: cover;
     background-position: center;
     height: 600px;
-    margin-bottom: 20px;
 }
 
 @media (max-width: 1140px) {
     .area__five {
        width: 100%;
-    }
-}
-@media (max-width: 768px) {
-    .area__five {
-        margin-bottom: 0px;
     }
 }

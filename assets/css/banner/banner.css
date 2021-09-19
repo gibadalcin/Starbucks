@@ -4,7 +4,6 @@
     background-size: auto;
     padding-top: 120px;
     padding-bottom: 120px;
-    margin-bottom: 20px;
 }
 
 .banner span {
@@ -14,11 +13,7 @@
     width: 100%;
 }
 
-@media (max-width: 768px) {
-    .banner {
-        margin-bottom: 0px;
-    }
-    
+@media (max-width: 768px) {  
     .banner span {
       font-weight: 600;
       width: 45%;
