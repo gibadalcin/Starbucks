@@ -12,7 +12,7 @@
 ---
 
 ### Material de estudo 
-+ Página desenvolvida como prática das linguagens e tecnologias utilizadas, com foco na padronização do código HTML e uso de classes no CSS, manipulação de elementos com grid e flexbox, manipulação de imagens e cores do navegador android na versão mobile.
++ Página desenvolvida como prática das linguagens e tecnologias utilizadas, com foco na padronização do código HTML e uso de classes no CSS, manipulação de elementos com grid e flexbox, manipulação de imagens e cores dos navegadores em versões mobile.
  
  ---
  
