@@ -1,4 +1,4 @@
-# Starbucks
+# Starbucks Template
 
 ### Descrição
 + Layout inspirado na página do Starbucks.com, 100% responsiva. 
